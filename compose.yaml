@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  db: # not-implemented
+    image: postgres:latest
+    environment:
+      POSTGRES_DB: localization
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: HackMe228
+    ports:
+      - "5400:5432"
